@@ -12,5 +12,6 @@ namespace Movies.Contracts.Requests
         public required int YearOfRelese { get; init; }
         public required IEnumerable<string> Generes { get; init; } = Enumerable.Empty<string>();
 
+
     }
 }
